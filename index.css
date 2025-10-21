@@ -40,12 +40,11 @@ img {
     width: 100%;
     border-radius: 8px;
     margin: 1rem;
-
     justify-content: center;
 }
 
 h1 {
-    margin-bottom: 10px;
+    margin: 1rem;
     font-weight: 200;
     color: black;
     text-align: left;
@@ -54,6 +53,7 @@ h1 {
 p {
     line-height: 1.6;
     color: hsl(210, 10%, 33%);
+    margin: 1rem;
     font-size: 16px;
     text-align: left;
 }
@@ -61,20 +61,31 @@ p {
 .two {
     background-color: hsl(330, 100%, 98%);
     margin-top: 20px;
-    margin: 2rem;
+    margin: 1rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     color: hsl(210, 10%, 33%);
     text-align: left;
+    border-radius: 10px;
 }
 
 h2 {
     font-family: 'Outfit', sans-serif;
-    margin-top: 20px;
+    margin-left: 1rem;
+    margin-top: 1rem;
     font-weight: 600;
     color: hsl(332, 51%, 32%);
     text-align: left;
 }
+
+li {
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    color: hsl(210, 10%, 33%);
+    font-size: 16px;
+    text-align: left;
+}
+
 
 
 
