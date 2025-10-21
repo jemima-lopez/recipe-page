@@ -1,6 +1,80 @@
 
+body { 
+    font-family: "Young Serif", sans-serif; 
+    font-size: 16px;
+    margin: 20px; 
+    background-color: hsl(30, 54%, 90%); 
+}
 
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.recipe-card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 1rem;
+
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: black;
+    text-align: left;
+}
+
+p {
+    line-height: 1.6;
+    color: hsl(210, 10%, 33%);
+    font-size: 16px;
+    text-align: left;
+}
+
+.two {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 20px;
+    margin: 2rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Outfit', sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    text-align: left;
+}
 
 
 
