@@ -1,6 +1,6 @@
 
 body { 
-    font-family: "Young Serif", sans-serif; 
+    
     font-size: 16px;
     margin: 20px; 
     background-color: hsl(30, 54%, 90%); 
@@ -45,12 +45,14 @@ img {
 
 h1 {
     margin: 1rem;
+    font-family: "Young Serif", sans-serif; 
     font-weight: 200;
     color: black;
     text-align: left;
 }
 
 p {
+    font-family: 'Outfit', sans-serif;
     line-height: 1.6;
     color: hsl(210, 10%, 33%);
     margin: 1rem;
@@ -60,7 +62,8 @@ p {
 
 .two {
     background-color: hsl(330, 100%, 98%);
-    margin-top: 20px;
+    padding: 1rem;
+    margin-top: 1rem;
     margin: 1rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
@@ -83,6 +86,24 @@ li {
     margin-bottom: 0.5rem;
     color: hsl(210, 10%, 33%);
     font-size: 16px;
+    text-align: left;
+}
+
+.ingredients {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    text-align: left;
+}
+
+h3 {
+    font-family: 'young serif', serif;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: hsl(332, 51%, 32%);
     text-align: left;
 }
 
