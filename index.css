@@ -119,16 +119,6 @@ li {
     text-align: left;
     margin-right: 1.5rem;
 }
-.details {
-    display: table-row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 100%;
-}
 
 hr {
     border: none;
@@ -139,27 +129,39 @@ hr {
     margin-right: 1.5rem;
 }
 
-td {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 400;
-    color: hsl(210, 10%, 33%);
-    text-align: left;
-    padding-block: 0.75rem;
-    border-bottom: 1px solid hsl(210, 10%, 80%);
+.details {
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
     width: 100%;
 }
 
-tr td:first-child {
-    padding-left: 2rem;
+
+
+tr td {
+    font-family: 'Outfit', sans-serif;
+    padding-block: 0.75rem;
+    width: 90%;
+    border-bottom: 1px solid hsl(210, 10%, 80%);
 }
 
-tr td.weigh {
-    padding-left: 2rem;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    color: hsl(332, 51%, 32%);
-    text-align: left;
+tr td:first-child {
+    padding-left: 3rem;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
 }
+
+tr td:last-child {
+    text-align: left;
+    padding-right: 19rem;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    border-bottom: 1px solid hsl(210, 10%, 80%)
+}
+
 
 
 
