@@ -1,9 +1,23 @@
+:root{
+    
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+
 
 body { 
     
     font-size: 16px;
     margin: 20px; 
-    background-color: hsl(30, 54%, 90%); 
+    background-color: var(--Stone-100); 
 }
 
 .young-serif-regular {
@@ -20,7 +34,7 @@ body {
 }
 
 .recipe-card {
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--White);
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 700px;
@@ -47,14 +61,14 @@ h1 {
     margin: 1rem;
     font-family: "Young Serif", sans-serif; 
     font-weight: 200;
-    color: black;
+    color: var(--Stone-900);
     text-align: left;
 }
 
 p {
     font-family: 'Outfit', sans-serif;
     line-height: 1.6;
-    color: hsl(210, 10%, 33%);
+    color: var(--Stone-600);
     margin: 1rem;
     margin-bottom: 1.5rem;
     font-size: 16px;
@@ -62,14 +76,14 @@ p {
 }
 
 .two {
-    background-color: hsl(330, 100%, 98%);
+    background-color: var(--Rose-50);
     padding: 1rem;
     margin-top: 1rem;
     margin: 1rem;
     margin-bottom: 1.5rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    color: hsl(210, 10%, 33%);
+    color: var(--Stone-600);
     text-align: left;
     border-radius: 10px;
 }
@@ -79,7 +93,7 @@ h2 {
     margin-left: 1rem;
     margin-top: 1rem;
     font-weight: 600;
-    color: hsl(332, 51%, 32%);
+    color: var(--Brown-800);
     text-align: left;
 }
 
@@ -88,7 +102,7 @@ li {
     margin-bottom: 0.5rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    color: hsl(210, 10%, 33%);
+    color: var(--Stone-600);
     font-size: 16px;
     text-align: left;
 }
@@ -99,7 +113,7 @@ li {
     margin-bottom: 2rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    color: hsl(210, 10%, 33%);
+    color: var(--Stone-600);
     text-align: left;
 }
 
@@ -108,23 +122,23 @@ li {
     margin-left: 1rem;
     margin-top: 1rem;
     font-weight: 400;
-    color: hsl(332, 51%, 32%);
+    color: var(--Brown-800);
     text-align: auto;
 }
 
 .instructions {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    color: hsl(210, 10%, 33%);
+    color: var(--Stone-600);
     text-align: left;
     margin-right: 1.5rem;
 }
 
 hr {
     border: none;
-    border-top: 1px solid hsl(210, 10%, 80%);
+    border-top: 1px solid var(--Stone-150);
     font-size: 600;
-    color: hsl(210, 10%, 33%);
+    color: var(--Stone-600);
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
@@ -145,44 +159,22 @@ tr td {
     font-family: 'Outfit', sans-serif;
     padding-block: 0.75rem;
     width: 90%;
-    border-bottom: 1px solid hsl(210, 10%, 80%);
+    border-bottom: 1px solid var(--Stone-150);
 }
 
 tr td:first-child {
     padding-left: 3rem;
     font-weight: 400;
-    color: hsl(210, 10%, 33%);
+    color: var(--Stone-600);
 }
 
 tr td:last-child {
     text-align: left;
     padding-right: 19rem;
-    color: hsl(332, 51%, 32%);
+    color: var(--Rose-800);
     font-weight: 700;
-    border-bottom: 1px solid hsl(210, 10%, 80%)
+    border-bottom: 1px solid var(--Stone-150)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
