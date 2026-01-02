@@ -1,4 +1,32 @@
 
 @media (max-width: 768px) {
-    
+    body{
+        width: 100%;
+        margin: none
+    }
+
+    article .recipe-card {
+        padding: 0.1rem;
+        margin: none;
+        width: 100%;
+    }
+
+    table.details {
+        width: 100%;
+        margin: none;
+        padding: none;
+        gap: 3rem;
+    }
+
+    tr td:first-child {
+        padding: 12px 12px 12px 12px;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+    tr td:last-child {
+        padding: 12px 260px 12px 12px;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
 }

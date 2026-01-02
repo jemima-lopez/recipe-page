@@ -1,24 +1,3 @@
-:root{
-    
-    --Stone-100: hsl(30, 54%, 90%);
-    --Stone-150: hsl(30, 18%, 87%);
-    --Stone-600: hsl(30, 10%, 34%);
-    --Stone-900: hsl(24, 5%, 18%);
-
-    --Brown-800: hsl(14, 45%, 36%);
-
-    --Rose-800: hsl(332, 51%, 32%);
-    --Rose-50: hsl(330, 100%, 98%);
-    --White: hsl(0, 0%, 100%);
-}
-
-
-body { 
-    
-    font-size: 16px;
-    margin: 20px; 
-    background-color: var(--Stone-100); 
-}
 
 .young-serif-regular {
     font-family: "Young Serif", serif;
@@ -29,9 +8,28 @@ body {
 .outfit-regular {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 400 600 700;
     font-style: normal;
 }
+
+:root{
+    
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body { 
+    font-size: 16px;
+    margin: 20px; 
+    background-color: var(--Stone-100); 
+}
+
 
 .recipe-card {
     background-color: var(--White);
@@ -59,7 +57,7 @@ img {
 
 h1 {
     margin: 1rem;
-    font-family: "Young Serif", sans-serif; 
+    font-family: "Young Serif", serif; 
     font-weight: 200;
     color: var(--Stone-900);
     text-align: left;
@@ -82,17 +80,17 @@ p {
     margin: 1rem;
     margin-bottom: 1.5rem;
     font-family: 'Outfit', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     color: var(--Stone-600);
     text-align: left;
     border-radius: 10px;
 }
 
 h2 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif', serif;
     margin-left: 1rem;
     margin-top: 1rem;
-    font-weight: 600;
+    font-weight: 300;
     color: var(--Brown-800);
     text-align: left;
 }
@@ -170,7 +168,7 @@ tr td:first-child {
 
 tr td:last-child {
     text-align: left;
-    padding-right: 19rem;
+    padding-right: 18rem;
     color: var(--Rose-800);
     font-weight: 700;
     border-bottom: 1px solid var(--Stone-150)
